@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StudentUpdateRequest {
+public final class StudentUpdateRequest {
 
 	@NotNull
 	@NotEmpty

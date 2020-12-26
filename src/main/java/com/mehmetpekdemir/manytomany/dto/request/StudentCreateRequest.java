@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StudentCreateRequest {
+public final class StudentCreateRequest {
 
 	@NotNull
 	@NotEmpty
